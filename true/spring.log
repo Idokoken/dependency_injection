@@ -1,0 +1,33 @@
+2024-10-24T03:51:24.365+01:00  INFO 21088 --- [task6] [restartedMain] ndgroups.task6.Task6Application          : Starting Task6Application using Java 18.0.1.1 with PID 21088 (C:\Users\User\Documents\kenneth\flexisaf\projects\task6\target\classes started by User in C:\Users\User\Documents\kenneth\flexisaf\projects\task6)
+2024-10-24T03:51:24.370+01:00  INFO 21088 --- [task6] [restartedMain] ndgroups.task6.Task6Application          : No active profile set, falling back to 1 default profile: "default"
+2024-10-24T03:51:24.930+01:00  INFO 21088 --- [task6] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-24T03:51:24.931+01:00  INFO 21088 --- [task6] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-24T03:51:29.539+01:00  INFO 21088 --- [task6] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-24T03:51:29.936+01:00  INFO 21088 --- [task6] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 331 ms. Found 3 JPA repository interfaces.
+2024-10-24T03:51:35.469+01:00  INFO 21088 --- [task6] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-24T03:51:35.610+01:00  INFO 21088 --- [task6] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24T03:51:35.611+01:00  INFO 21088 --- [task6] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24T03:51:36.107+01:00  INFO 21088 --- [task6] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24T03:51:36.107+01:00  INFO 21088 --- [task6] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11172 ms
+2024-10-24T03:51:38.510+01:00  INFO 21088 --- [task6] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-24T03:51:46.055+01:00  INFO 21088 --- [task6] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e47e4cd
+2024-10-24T03:51:46.059+01:00  INFO 21088 --- [task6] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-24T03:51:48.780+01:00  INFO 21088 --- [task6] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/task6 (MySQL 8.0)
+2024-10-24T03:51:51.255+01:00  INFO 21088 --- [task6] [restartedMain] o.f.c.i.s.JdbcTableSchemaHistory         : Schema history table `task6`.`flyway_schema_history` does not exist yet
+2024-10-24T03:51:51.300+01:00  INFO 21088 --- [task6] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.615s)
+2024-10-24T03:51:51.300+01:00  WARN 21088 --- [task6] [restartedMain] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2024-10-24T03:51:53.940+01:00  INFO 21088 --- [task6] [restartedMain] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table `task6`.`flyway_schema_history` ...
+2024-10-24T03:52:01.228+01:00  INFO 21088 --- [task6] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `task6`: << Empty Schema >>
+2024-10-24T03:52:01.257+01:00  INFO 21088 --- [task6] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `task6` is up to date. No migration necessary.
+2024-10-24T03:52:01.648+01:00  INFO 21088 --- [task6] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24T03:52:01.991+01:00  INFO 21088 --- [task6] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-24T03:52:02.092+01:00  INFO 21088 --- [task6] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-24T03:52:03.694+01:00  INFO 21088 --- [task6] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-24T03:52:04.143+01:00  WARN 21088 --- [task6] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-24T03:52:04.145+01:00  WARN 21088 --- [task6] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-24T03:52:06.217+01:00  INFO 21088 --- [task6] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-24T03:52:09.570+01:00  INFO 21088 --- [task6] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T03:52:10.388+01:00  WARN 21088 --- [task6] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24T03:52:11.137+01:00  INFO 21088 --- [task6] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-24T03:52:11.239+01:00  INFO 21088 --- [task6] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-24T03:52:11.253+01:00  INFO 21088 --- [task6] [restartedMain] ndgroups.task6.Task6Application          : Started Task6Application in 50.137 seconds (process running for 53.802)
